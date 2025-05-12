@@ -2,7 +2,7 @@
 
 Multipartite GME states with high entangled degrees of freedom are interesting from a fundamental quantum information science perspective and offer advantages in a range of applications. The GME-dimention quantifies the entangled degrees of freedom in a high-dimensional GME state as the lowest Schmidt number needed to generate the state by classical mixture over all bipartitions.
 
-Based on the methods outlined in \[1\] we detect the GME-dimention. This work introduces:
+Based on the methods outlined in \[1\] we build on the code of \[4\] to detect the GME-dimention. This work introduces:
 
 * An SDP to compute the critical visibility of any target state.  
 * An SDP to simulate a state under projective measurements using mutually unbiased bases (MUBs).  
@@ -52,3 +52,4 @@ Based on the methods outlined in \[1\] we detect the GME-dimention. This work in
 \[3\]: Sebastien Designolle (2024). MUB  
 ([https://github.com/sebastiendesignolle/MUB](https://github.com/sebastiendesignolle/MUB)),  
 GitHub. Retrieved May 12, 2025\.
+\[4\]: Gabriele Cobucci (2024). GMEN-mixer ([https://github.com/GabrieleCobucci/GMEN-mixer/tree/GME-dimension](https://github.com/GabrieleCobucci/GMEN-mixer/tree/GME-dimension))  
