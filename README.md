@@ -1,4 +1,4 @@
-%------------------------**Convex programming for GME-dimension**\------------------------%
+# Convex programming for GME-dimension
 
 Multipartite GME states with high entangled degrees of freedom are interesting from a fundamental quantum information science perspective and offer advantages in a range of applications. The GME-dimension quantifies the entangled degrees of freedom in a high-dimensional GME state as the lowest Schmidt number needed to generate the state by classical mixture over all bipartitions.
 
@@ -8,44 +8,46 @@ Based on the methods outlined in \[1\], we build on the code of \[4\] to detect 
 * An SDP to simulate a state under projective measurements using mutually unbiased bases (MUBs).  
 * Generating d-partite d-dimensional supersinglet states.
 
-%\--------------------------------------\-**List of the functions**\---------------------------------------%
+## List of the functions
 
-* SDPVisibility  
-  * VisibilitySDP  
+### SDPVisibility  
+* VisibilitySDP  
     Function evaluates the SemidefiniteProgram (SDP) for a target n-partite d-dimensional state using YALMIPn
 
-  * reductionMap  
+* reductionMap  
     Applies the general reduction map
 
-  * SetPartition\[2\]
+* SetPartition\[2\]
 
-  * Stirling2nd\[2\]
+* Stirling2nd\[2\]
 
+### MeasurementStatisticsSDP  
 * MeasurementStatisticsSDP  
-  * MeasurementStatisticsSDP  
     Function evaluates the measurement statistic SDP for a target n-partite d-dimensional state using YALMIP
 
-  * GenerateMUB  
+* GenerateMUB  
     Generates all possible MUBs
 
-  * GenAllK  
+* GenAllK  
     This function generates all iterations of n numbers ranging from d
 
-  * reductionMap  
+* reductionMap  
     Applies the general reduction map
 
-  * SetPartition\[2\]
+* SetPartition\[2\]
 
-  * Stirling2nd\[2\]
+* Stirling2nd\[2\]
 
-  * mub \[3\]
+* mub \[3\]
 
+### SuperSinglet  
 * SuperSinglet  
-  * SuperSinglet  
     Creates a supersinglet state
 
-  * LeviCivita  
+* LeviCivita  
     Evaluates the sign of a permutation
+
+
 
 
 [1]: Gabriele Cobucci, Armin Tavakoli (2024). Characterising and detecting genuinely high-dimensional genuine multipartite entanglement  
